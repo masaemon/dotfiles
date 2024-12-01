@@ -1,0 +1,22 @@
+cask_args appdir: "/Applications"
+
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+
+brew "asdf"
+brew "curl"
+brew "gawk"
+brew "gcc"
+brew "git"
+brew "gpg"
+brew "jq"
+brew "qemu"
+brew "tmux"
+brew "vim"
+brew "wget"
+
+cask "docker"
+cask "google-chrome"
+cask "iterm2"
+cask "visual-studio-code"
